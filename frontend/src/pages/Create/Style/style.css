@@ -1,0 +1,95 @@
+.slider-container {
+    width: 100%;
+    position: relative; /* Required for absolute positioning of children */
+
+}
+
+.small-text {
+    font-size: 10px; /* You can adjust the size as needed */
+}
+.scroll-container{
+    height: 360px; /* Set the fixed height for two rows */
+    min-width: 520px;
+    overflow-y: auto; /* Enables vertical scrolling when content overflows */
+}
+/* style.css */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* creates four columns */
+  gap: 15px; /* space between images */
+}
+.border-blue-500 {
+  border-color: rgb(73, 73, 224) !important; /* Using !important to ensure it overrides other styles */
+}
+.image-container {
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  width: 120px;
+  /* height: 100%; */
+}
+.image-container img {
+    width: 95%;
+    height: 79px;
+    object-fit: cover;
+    border-radius: 5px; /* To keep the rounded corners */
+  }
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #EFEFEF;
+    border-radius: 5px;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #007BFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: #007BFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider::-ms-thumb {
+    width: 12px;
+    height: 12px;
+    background: #007BFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider-container::after {
+    content: "";
+    position: absolute;
+    top: 5px; /* Adjust based on the height of your slider */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 14px; /* Adjust this height as necessary */
+    background: rgb(156, 156, 156);
+    z-index: 0; /* Ensures it's above the slider */
+}
+.slider::-moz-range-track {
+    background: #EFEFEF;
+}
+
+.slider::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}

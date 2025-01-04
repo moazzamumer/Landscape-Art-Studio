@@ -1,0 +1,468 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/LandScapeAI']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [288482] using WatchFiles
+INFO:     Started server process [288484]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     39.38.233.20:35324 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     39.38.233.20:35324 - "GET /Get_Saved_Images HTTP/1.1" 200 OK
+INFO:     39.38.233.20:35324 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     39.38.233.20:35330 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+detailed vibrant residential warm humid northern Australia lush dense plantings palms gingers heliconias foliage flowers cool microclimate thick greenery shade visual depth water features stone pathways tropical ambiance serene retreat rich color texture tropical paradise high-quality hyper-realistic professional photography large distance shot
+.
+https://landscapeaiimages.s3-accelerate.amazonaws.com/images/preset_2.png
+bf7987f3-25b9-42d6-9af2-9c6f9633e072_preset_2.png
+./bf7987f3-25b9-42d6-9af2-9c6f9633e072_preset_2.png
+bf7987f3-25b9-42d6-9af2-9c6f9633e072_preset_2.png
+./bf7987f3-25b9-42d6-9af2-9c6f9633e072_preset_2.png
+File uploaded successfully to https://landscapeaiimages.s3-accelerate.amazonaws.com/images/upscaled_0bf7987f3-25b9-42d6-9af2-9c6f9633e072_preset_2.png
+File uploaded successfully to https://landscapeaiimages.s3-accelerate.amazonaws.com/images/upscaled_1bf7987f3-25b9-42d6-9af2-9c6f9633e072_preset_2.png
+File uploaded successfully to https://landscapeaiimages.s3-accelerate.amazonaws.com/images/upscaled_2bf7987f3-25b9-42d6-9af2-9c6f9633e072_preset_2.png
+File uploaded successfully to https://landscapeaiimages.s3-accelerate.amazonaws.com/images/upscaled_3bf7987f3-25b9-42d6-9af2-9c6f9633e072_preset_2.png
+INFO:     39.38.233.20:33714 - "POST /Generate_Output_Designs?style_id=757&ai_creativity=23&number_of_designs=4&ai_instruction=.&preset_id=43 HTTP/1.1" 200 OK
+INFO:     39.50.195.220:53675 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+INFO:     39.50.195.220:53811 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+INFO:     39.50.195.220:53816 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.172.187.200:55270 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.172.187.200:55284 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     198.235.24.122:60522 - "GET / HTTP/1.1" 404 Not Found
+INFO:     106.75.134.172:51942 - "POST /token HTTP/1.1" 404 Not Found
+INFO:     198.235.24.35:59654 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     39.38.233.20:50036 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     39.38.233.20:38246 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     39.38.233.20:35648 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     54.145.164.161:43028 - "POST / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     3.87.60.37:56746 - "POST / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     8.130.12.43:47914 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     167.94.138.112:43358 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.112:37368 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.71.227.252:47588 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.71.227.252:47612 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     39.38.233.20:40648 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     39.38.233.20:40656 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+detailed vibrant traditional English cottage garden Australian climate drought-resistant plants lavender rosemary salvia lush informal arid conditions winding paths mixed plant beds quaint sitting area charming rustic aesthetic variety of textures colors classic cottage garden drier environment high-quality hyper-realistic professional photography large distance shot
+add some waterfalls
+https://landscapeaiimages.s3-accelerate.amazonaws.com/images/preset_1.png
+fdcc8995-a32c-4ab4-8e10-36a53de788df_preset_1.png
+./fdcc8995-a32c-4ab4-8e10-36a53de788df_preset_1.png
+fdcc8995-a32c-4ab4-8e10-36a53de788df_preset_1.png
+./fdcc8995-a32c-4ab4-8e10-36a53de788df_preset_1.png
+INFO:     39.38.233.20:55746 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2144, in run_sync_in_worker_thread
+    return await future
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+  File "/home/ubuntu/LandScapeAI/init.py", line 130, in generate_output_designs
+    model_obj.send_request(image_path, mask_path, ai_creativity,number_of_designs)
+  File "/home/ubuntu/LandScapeAI/imagemodel.py", line 70, in send_request
+    sd_response = response.json()
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:     39.38.233.20:55760 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+detailed vibrant minimalism native Australian planting hard landscaping sleek paving modern walls functional decks outdoor living spaces native plants contrast minimalist design visually striking environmentally friendly ease of movement relaxation indoor and outdoor living contemporary aesthetic sustainability high-quality hyper-realistic professional photography large distance shot
+add some waterfall in this
+https://landscapeaiimages.s3-accelerate.amazonaws.com/images/preset_2.png
+33e7708c-f000-45e5-bccb-e7ab2ac11e73_preset_2.png
+./33e7708c-f000-45e5-bccb-e7ab2ac11e73_preset_2.png
+33e7708c-f000-45e5-bccb-e7ab2ac11e73_preset_2.png
+./33e7708c-f000-45e5-bccb-e7ab2ac11e73_preset_2.png
+INFO:     39.38.233.20:60670 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     39.38.233.20:60670 - "GET /Get_Saved_Images HTTP/1.1" 200 OK
+INFO:     39.38.233.20:49010 - "GET /Get_Saved_Images HTTP/1.1" 200 OK
+INFO:     39.38.233.20:49010 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     39.38.233.20:49012 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+detailed vibrant residential backyard front yard water efficiency native plants eucalypts acacias grevilleas natural sustainability local wildlife diverse plant life colors subtle landscaping discreet pathways unobtrusive seating areas tranquil open atmosphere Australian landscapes sunlit areas shaded greenery high-quality hyper-realistic professional photography large distance shot
+.
+https://landscapeaiimages.s3-accelerate.amazonaws.com/images/preset_2.png
+bd973241-4c9c-4015-b474-dbc0ae70ae65_preset_2.png
+./bd973241-4c9c-4015-b474-dbc0ae70ae65_preset_2.png
+bd973241-4c9c-4015-b474-dbc0ae70ae65_preset_2.png
+./bd973241-4c9c-4015-b474-dbc0ae70ae65_preset_2.png
+File uploaded successfully to https://landscapeaiimages.s3-accelerate.amazonaws.com/images/upscaled_033e7708c-f000-45e5-bccb-e7ab2ac11e73_preset_2.png
+File uploaded successfully to https://landscapeaiimages.s3-accelerate.amazonaws.com/images/upscaled_133e7708c-f000-45e5-bccb-e7ab2ac11e73_preset_2.png
+File uploaded successfully to https://landscapeaiimages.s3-accelerate.amazonaws.com/images/upscaled_0bd973241-4c9c-4015-b474-dbc0ae70ae65_preset_2.png
+File uploaded successfully to https://landscapeaiimages.s3-accelerate.amazonaws.com/images/upscaled_1bd973241-4c9c-4015-b474-dbc0ae70ae65_preset_2.png
+INFO:     39.38.233.20:59408 - "POST /Generate_Output_Designs?style_id=755&ai_creativity=23&number_of_designs=2&ai_instruction=.&preset_id=43 HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     39.38.233.20:45564 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     206.168.34.53:41192 - "GET / HTTP/1.1" 404 Not Found
+INFO:     206.168.34.53:52122 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.154.150:43694 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.154.150:55344 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     103.203.57.20:38004 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     152.42.248.181:42592 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     152.42.248.181:42622 - "GET /login HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     198.235.24.142:61526 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     8.147.130.243:59034 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     70.33.228.84:40636 - "GET /manager/html HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     165.232.154.207:54586 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     165.232.154.207:54612 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     172.169.3.202:36856 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.211:50840 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     77.248.167.24:63327 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     77.248.167.24:63333 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+INFO:     77.248.167.24:63340 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+detailed vibrant residential backyard front yard coastal environments harsh salty winds sandy soils hardy plants salt-tolerant plants banksias coastal tea trees resilient welcoming natural color tones wind-swept vegetation coastal landscapes paths seating areas outdoor living spaces durability aesthetic appeal high-quality hyper-realistic professional photography large distance shot
+Defined garden bed, stone pathway
+https://landscapeaiimages.s3-accelerate.amazonaws.com/images/preset_2.png
+e9e32cd9-319f-462c-bc6b-98264bdbacc7_preset_2.png
+./e9e32cd9-319f-462c-bc6b-98264bdbacc7_preset_2.png
+e9e32cd9-319f-462c-bc6b-98264bdbacc7_preset_2.png
+./e9e32cd9-319f-462c-bc6b-98264bdbacc7_preset_2.png
+INFO:     77.248.167.24:63340 - "POST /Generate_Output_Designs?style_id=756&ai_creativity=23&number_of_designs=1&ai_instruction=Defined+garden+bed%2C+stone+pathway&preset_id=43 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2144, in run_sync_in_worker_thread
+    return await future
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+  File "/home/ubuntu/LandScapeAI/init.py", line 130, in generate_output_designs
+    model_obj.send_request(image_path, mask_path, ai_creativity,number_of_designs)
+  File "/home/ubuntu/LandScapeAI/imagemodel.py", line 70, in send_request
+    sd_response = response.json()
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:     77.248.167.24:63341 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Invalid HTTP request received.
+INFO:     77.248.167.24:64497 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     77.248.167.24:64518 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     77.248.167.24:64521 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     77.248.167.24:64532 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     213.55.240.178:37708 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     213.55.240.178:37805 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+detailed vibrant residential backyard front yard water efficiency native plants eucalypts acacias grevilleas natural sustainability local wildlife diverse plant life colors subtle landscaping discreet pathways unobtrusive seating areas tranquil open atmosphere Australian landscapes sunlit areas shaded greenery high-quality hyper-realistic professional photography large distance shot
+Modern australian design
+File uploaded successfully to https://landscapeaiimages.s3-accelerate.amazonaws.com/images/8ea5d9dc-224a-4b4a-9d00-ef71bcb492ba.png
+input_image_id 2736
+ai input_id 376
+./8ea5d9dc-224a-4b4a-9d00-ef71bcb492ba.png
+8ea5d9dc-224a-4b4a-9d00-ef71bcb492ba.png
+./8ea5d9dc-224a-4b4a-9d00-ef71bcb492ba.png
+INFO:     213.55.240.178:37725 - "POST /Generate_Output_Designs?style_id=755&ai_creativity=26&number_of_designs=1&ai_instruction=Modern+australian+design HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2144, in run_sync_in_worker_thread
+    return await future
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+  File "/home/ubuntu/LandScapeAI/init.py", line 130, in generate_output_designs
+    model_obj.send_request(image_path, mask_path, ai_creativity,number_of_designs)
+  File "/home/ubuntu/LandScapeAI/imagemodel.py", line 70, in send_request
+    sd_response = response.json()
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:     213.55.240.178:37782 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+detailed vibrant residential warm humid northern Australia lush dense plantings palms gingers heliconias foliage flowers cool microclimate thick greenery shade visual depth water features stone pathways tropical ambiance serene retreat rich color texture tropical paradise high-quality hyper-realistic professional photography large distance shot
+Modern australian design
+File uploaded successfully to https://landscapeaiimages.s3-accelerate.amazonaws.com/images/a428de1b-ba77-4145-abbf-af431d265812.png
+input_image_id 2737
+ai input_id 377
+./a428de1b-ba77-4145-abbf-af431d265812.png
+a428de1b-ba77-4145-abbf-af431d265812.png
+./a428de1b-ba77-4145-abbf-af431d265812.png
+INFO:     213.55.240.178:37782 - "POST /Generate_Output_Designs?style_id=757&ai_creativity=26&number_of_designs=1&ai_instruction=Modern+australian+design HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/starlette/concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2144, in run_sync_in_worker_thread
+    return await future
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+  File "/home/ubuntu/LandScapeAI/init.py", line 130, in generate_output_designs
+    model_obj.send_request(image_path, mask_path, ai_creativity,number_of_designs)
+  File "/home/ubuntu/LandScapeAI/imagemodel.py", line 70, in send_request
+    sd_response = response.json()
+  File "/home/ubuntu/myenv/lib/python3.10/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:     213.55.240.178:37817 - "GET /Get_Design_Styles HTTP/1.1" 200 OK
+INFO:     213.55.240.178:37817 - "GET /Get_Saved_Images HTTP/1.1" 200 OK
+INFO:     213.55.240.178:37802 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     213.55.240.178:37728 - "GET /Get_Preset_Input_Images HTTP/1.1" 200 OK
+INFO:     167.94.138.112:57558 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.112:38698 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     45.156.129.56:43026 - "GET / HTTP/1.1" 404 Not Found
+INFO:     198.235.24.144:60260 - "GET / HTTP/1.1" 404 Not Found
+INFO:     198.235.24.22:61960 - "GET / HTTP/1.1" 404 Not Found
+INFO:     87.249.134.11:46014 - "GET /.ssh/ HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     137.184.92.244:37774 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     137.184.92.244:37790 - "GET /login HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     45.156.130.6:44860 - "GET /owncloud/status.php HTTP/1.1" 404 Not Found
+INFO:     45.156.130.6:44874 - "GET /status.php HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
