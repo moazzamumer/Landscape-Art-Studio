@@ -174,9 +174,9 @@ moazzamumer-Landscape-Art-Studio/
 ---
 
 ## Frontend Images
-![Upload Screen](frontend/images/LS-FE-3.png)
-![Editing Tool](frontend/images/LS-FE-1.png)
-![Templates Tool](frontend/images/LS-FE-2.png)
+![Upload Screen](frontend/design-images/LS-FE-3.png)
+![Editing Tool](frontend/design-images/LS-FE-1.png)
+![Templates Tool](frontend/design-images/LS-FE-2.png)
 
 ---
 
