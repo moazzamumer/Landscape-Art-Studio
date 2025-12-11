@@ -28,96 +28,6 @@ Landscape Art Studio is an innovative AI-driven application designed to transfor
 
 ---
 
-## Directory Structure
-
-```
-moazzamumer-Landscape-Art-Studio/
-├── backend/
-│   ├── S3.py
-│   ├── constant.py
-│   ├── crud.py
-│   ├── database.py
-│   ├── dbinitial.py
-│   ├── imagemodel.py
-│   ├── init.py
-│   ├── model.py
-│   ├── prompt.txt
-│   ├── promts.py
-│   ├── test.py
-│   ├── __pycache__/
-│   └── models/
-│       ├── helper.py
-│       ├── tempCodeRunnerFile.py
-│       └── __pycache__/
-└── frontend/
-    ├── README.md
-    ├── jsconfig.json
-    ├── package-lock.json
-    ├── package.json
-    ├── postcss.config.js
-    ├── tailwind.config.js
-    ├── yarn.lock
-    ├── .gitignore
-    ├── public/
-    │   ├── index.html
-    │   ├── manifest.json
-    │   └── robots.txt
-    └── src/
-        ├── App.css
-        ├── App.js
-        ├── App.test.js
-        ├── CONSTANTS.js
-        ├── index.css
-        ├── index.js
-        ├── reportWebVitals.js
-        ├── setupTests.js
-        ├── assets/
-        │   ├── Loader.json
-        │   └── generic_loader.json
-        ├── components/
-        │   ├── Redirect.jsx
-        │   ├── CropImage/
-        │   │   ├── CropImage.jsx
-        │   │   └── MobileCrop.jsx
-        │   ├── FileUpload/
-        │   │   └── FileUpload.jsx
-        │   ├── Sidebar/
-        │   │   └── Sidebar.jsx
-        │   ├── Stepper/
-        │   │   └── Stepper.jsx
-        │   └── loader.component/
-        │       ├── Loader.jsx
-        │       └── LoaderComponent.jsx
-        ├── context/
-        │   └── CreateContext.jsx
-        ├── hoc/
-        │   └── layout.jsx
-        ├── hooks/
-        │   └── useIsMobile.jsx
-        ├── pages/
-        │   ├── Home.jsx
-        │   ├── Create/
-        │   │   ├── index.jsx
-        │   │   ├── Create/
-        │   │   │   └── Create.jsx
-        │   │   ├── Crop/
-        │   │   │   └── Crop.jsx
-        │   │   ├── Review/
-        │   │   │   └── Review.jsx
-        │   │   └── Style/
-        │   │       ├── Style.jsx
-        │   │       └── style.css
-        │   └── MyImages/
-        │       └── MyImages.jsx
-        ├── services/
-        │   ├── index.js
-        │   └── query.hook.js
-        └── utils/
-            └── utility.js
-```
-
----
-
 ## Installation
 
 ### Backend:
@@ -177,6 +87,8 @@ moazzamumer-Landscape-Art-Studio/
 ![Upload Screen](frontend/design-images/LS-FE-3.png)
 ![Editing Tool](frontend/design-images/LS-FE-1.jpg)
 ![Templates Tool](frontend/design-images/LS-FE-2.jpg)
+![Original Input](frontend/design-images/LS-FE-4.jpg)
+![Generated Outputs](frontend/design-images/LS-FE-5.jpg)
 
 ---
 
