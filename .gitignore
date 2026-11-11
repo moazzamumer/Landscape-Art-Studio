@@ -1,0 +1,21 @@
+# secrets
+backend/constant.py
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.log
+tempCodeRunnerFile.py
+
+# generated outputs
+backend/pipeline.png
+backend/upscaled_*
+
+# node (frontend has its own .gitignore)
+node_modules/
+
+# os / editor
+.DS_Store
+.vscode/
