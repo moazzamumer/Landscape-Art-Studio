@@ -3,7 +3,7 @@
 Mask-guided landscape redesign with a fine-tuned Stable Diffusion 2 model.
 A user uploads a photo of a yard, paints a mask over the area to redesign, picks a garden style, and the system regenerates only the masked region while keeping the house, trees and surroundings intact.
 
-Final Year Project, FAST-NUCES Lahore (BS Data Science, 2024–25). Team: Moazzam Umer, Muhammad Arham, Abdullah Umar. Supervisor: Hamad Ul Qudous.
+Final Year Project, FAST-NUCES Lahore (BS Data Science, 2024–25).
 
 ## Results
 
